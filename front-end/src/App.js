@@ -8,6 +8,7 @@ import product from './Pages/product'; // Import Product component
 import cart from './Pages/cart'; // Import Cart component
 import login from './Pages/login'; // Import Login component
 import Hero from './Components/Hero/Hero';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
         <Route pth='/cart' element={<cart/>}/>
         <Route path='/login' element={<login/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
